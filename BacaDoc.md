@@ -1,8 +1,15 @@
 # Generate Form using command in Laravel + MySQL
 
 ## How to Run :
+### git clone https://github.com/yogga/form-entry.git
+### cd form-entry
+### composer install
+### php artisan key:generate
+### cp .env.example .env
+### php artisan migrate
+### php artisan serve
 
-### Composer Install
+
 ### To generate form mahasiswa : 
 php artisan generate:form mahasiswa
 
